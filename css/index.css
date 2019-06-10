@@ -25,12 +25,14 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: white;
+  
 }
 #logo2 {
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
     text-align: center;
     color: white;
+   
 }
 a.button1{
 display:inline-block;
@@ -68,8 +70,25 @@ main {
 #Hellow {
     font-size: 20px;
 }
-#img {
-
+img.foto  {
+margin-left: 30%;
 } 
-
-    
+hr {
+    color: orange;
+}
+section.contact {
+    display: flex;
+    justify-content: space-between;
+}
+#icon {
+    width: 50px;
+    height: 50px;
+}
+section.link {
+    display: flex;
+    justify-content: space-between;
+}
+#icon1 {
+    width: 100px;
+    height: 100px;
+}
