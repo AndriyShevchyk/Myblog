@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 :root {
     font-family: 'Amatic SC', cursive;
+    scroll-behavior: smooth;
 }
+
 body {
     background: black;
     max-width: 980px;
     margin: auto;
+    
 }
 p {
     color: white;
-}
-h3 {
-    color: white;
+    font-family: 'Amatic SC', cursive;
 }
 ul {
     color: white;
+    font-family: 'Amatic SC', cursive;
 }
-h1 {
+h1, h2, h3 {
     color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align :center;
 }
 #logo {
     font-family: 'Amatic SC', cursive;
@@ -34,6 +38,62 @@ h1 {
     color: white;
    
 }
+button.educationClick {
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #EAB208;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.9s;
+background-color:orange;
+height: 100px;
+width: 310px;
+}
+button.skillClick {
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #EAB208;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.9s;
+background-color:orange;
+height: 100px;
+width: 310px;
+}
+button.workClick {
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #EAB208;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.9s;
+background-color:orange;
+height: 100px;
+width: 310px;
+}
+a.button1:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+
 a.button1{
 display:inline-block;
 padding:0.35em 1.2em;
@@ -47,7 +107,7 @@ font-weight:300;
 color:#FFFFFF;
 text-align:center;
 transition: all 0.9s;
-
+margin-top: 10%;
 }
 a.button1:hover{
 color:#000000;
@@ -68,13 +128,17 @@ main {
     justify-content: space-between;
 }
 #Hellow {
-    font-size: 20px;
+    font-size: 30px;
+    
 }
 img.foto  {
-margin-left: 30%;
+        margin-right: auto;
 } 
 hr {
     color: orange;
+    background-color: orange; 
+    height: 5px;
+
 }
 section.contact {
     display: flex;
@@ -91,4 +155,40 @@ section.link {
 #icon1 {
     width: 100px;
     height: 100px;
+}
+#S1 {
+    display: none;
+    width: 30%;
+    float: left;
+    
+   
+    
+}
+#S2 {
+    display: none;
+    width: 70%;
+    float: right;
+    font-size: 30px;
+}
+#S3 {
+    display: none;
+    float: right;
+    width: 40%;
+}
+#S4 {
+    display: none;
+    float: right;
+    width: 40%;
+}
+#S5 {
+    display: none;
+    float: left;
+    width: 60%;
+    font-size: 50px;
+}
+#S6 {
+    display: none;
+    width: 50%;
+    float: left;
+    font-size: 30px;
 }

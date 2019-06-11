@@ -1,42 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <title>Андрій Шевчук</title>
 </head>
+
 <body>
     <header>
         <nav class="nav">
-            <a href="resume.html" class="button1">  Резюме </a> 
-            <a href="aboutme.html"class="button1">  Про мене </a> 
+            <a href="#resume" class="button1">  Резюме </a>
+            <a href="#about-me" class="button1">  Про мене </a>
         </nav>
-        <div id="logo" > Андрій Шевчук </div> <br>   
+        <div id="logo"> Андрій Шевчук </div> <br>
         <div id="logo2"> Особистий блог </div>
     </header>
     <main>
-        <img src="img/Foto ShevchykA.O.jpg" alt="Фото Шевчук А.О." class="foto">
+        <img src="img/FotoShevchykA.O.jpg" alt="Фото Шевчук А.О." class="foto">
+        <div id="Hellow">
+            <p> Привіт!<br> Мене звати Андрій, мені 26.<br> Я вивчаю Web development та<br> веду курси для дітей по розробці <br> Web - ігор у Construct. У вільний час подорожую,<br> плаваю та займаюсь боксом. <br> Головне життєве кредо:<br> Постійно рухатись
+                вперед і не здаватись!</p>
+        </div>
+
     </main>
     <hr>
-<footer>
-    <section class= "contact">
-        <h1>Контакти</h1>
-        <img src="footer/maps.png" alt="адреса" id="icon">
-        <h3>м. Львів, вул. Кондукторська</h3>
-        <img src="footer/tel.png" alt="телефон"id="icon">
-        <h3>+38(095) 888 54 83</h3>
-        <img src="footer/email.png" alt="електронка" id="icon">
-        <h3>andriyshevchyk777@gmail.com</h3>
+    <section id='resume'>
+        <h2>Резюме</h2>
+        <button class="educationClick">Освіта</button>
+        <button class="skillClick">Вміння</button>
+        <button class="workClick">Досвід роботи</button>
     </section>
-    <section class= "link">
-       <a href="https://www.facebook.com/andriy.zabigailo?ref=bookmarks">  <img src="footer/fb.png"alt="фейсбук" id="icon1"></a>
-       <a href="https://www.instagram.com/andriyzabigailo/?hl=uk" >  <img src="footer/inst.png"alt="інстаграм" id="icon1"></a>
+    <main class="education">
+        <img id="S1" src="resume/education.png" alt="освіта">
+        <p id="S2"> 2015-2017 – Українська академія друкарства, спеціальність <br> – управління фінансово-економічною безпекою. Магістр <br> 2012-2015 – Українська академія друкарства, спеціальність<br> – технологія електронних мультимедійних видань. Бакалавр <br>            2008-2012 – Львівський поліграфічний коледж, <br> спеціальність – видавнича справа та редагування <br> 2001-2008 – школа № 81 ім. Петра Сагайдачного</p>
+    </main>
+    <section>
+        <main class="skill">
+            <img src="resume/skill.png" alt="вміння" id="S3">
+            <ul id="S6">
+                <li>Програмування (Мови: JavaScript, Html, Css,)</li>
+                <li> Графіка (векторна, растрова: Photoshop, Inkscape)</li>
+                <li> Відео-монтаж (Vegas)</li>
+                <li> 3D-графіка (SketchUp, Blender)</li>
+                <li>Середовища: NetBeans, Uniti, Scratch, AppInventor, Construct</li>
+            </ul>
+        </main>
+        <main> class="work">
+            <img src="resume/work.png" alt="робота" id="S4">
+            <p id="S5"> 2019- Lviv it school(викладач)<br> 2015-2019 – Комп'ютерні курси для дітей «Гранд»(викладач)<br> 2014-2015 - Фотостудія "Ардан"(фотограф,відео-оператор)><br></p>
     </section>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </main>
+    <hr>
+    <section id='about-me'>
+        <h2>Про мене</h2>
+        <h3>Трішки моментів життя=)</h3>
+        <div id="img">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="about/gamecraft1.jpg" class="d-block w-100" alt="захист проектів">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="about/gamecraft2.jpg" class="d-block w-100" alt="захист проектів">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="about/run11.jpg" class="d-block w-100" alt="марафон">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="about/wedding3.jpg" class="d-block w-100" alt="весілля">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div>
+            <hr>
+    </section>
+    <footer>
+        <section class="contact">
+            <h1>Контакти</h1>
+            <img src="footer/maps.png" alt="адреса" id="icon">
+            <h3>м. Львів, вул. Кондукторська</h3>
+            <img src="footer/tel.png" alt="телефон" id="icon">
+            <h3>+38(095) 888 54 83</h3>
+            <img src="footer/email.png" alt="електронка" id="icon">
+            <h3>andriyshevchyk777@gmail.com</h3>
+        </section>
+        <section class="link">
+            <a href="https://www.facebook.com/andriy.zabigailo?ref=bookmarks">  <img src="footer/fb.png" alt="фейсбук" id="icon1"></a>
+            <a href="https://www.instagram.com/andriyzabigailo/?hl=uk">  <img src="footer/inst.png" alt="інстаграм" id="icon1"></a>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
